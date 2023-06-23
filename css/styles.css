@@ -136,10 +136,55 @@ opacity: 0.75;
 
 
 /* Section Hero */
+
 .hero {
-    width: 1600px;
-    height: 850px; 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.25) 71.06%, #000000 91.71%);
-    border: 1px solid var(--main-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  width: 1600px;
+  height: 800px; 
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #000000;
+  background-image: url(/images/hero.jpg), linear-gradient(180deg, rgba(0, 0, 0, 0) 71.06%, #000000 91.71%);
+
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0) 71.06%, #000000 91.71%); */
+
+
+  }
+  
+  .hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 71.06%, #000000 91.71%);
+ 
+  }
+  
+  /* .hero-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    z-index: 1;
+  } */
+
+h1 {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 1.21;
+text-align: center;
+
+padding-top: 200px;
+
+
+
+color: rgba(255, 255, 255, 0.75);
+
+/* position: relative;
+  z-index: 2; */
 }
