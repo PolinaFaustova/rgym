@@ -214,7 +214,22 @@ margin-left: 250px;
   }
   
   .icon-play {
-    fill: var(--secondary-color);
     color: var(--secondary-color);
+    flex-shrink: 0;
   }
   
+.scroll {
+    /* transform: rotate(90deg); */
+}
+
+.scroll-down {
+color: var(--secondary-color);
+font-size: 18px;
+font-family: Montserrat;
+line-height: 1.44;
+letter-spacing: -0.9px;
+  }
+
+  .nav-site-arrow {
+
+  }
