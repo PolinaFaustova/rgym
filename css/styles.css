@@ -188,6 +188,11 @@ margin-left: 250px;
      
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
 .button-primary {
 width: 150px;
 height: 50px;
@@ -216,6 +221,8 @@ margin-left: 250px;
   .icon-play {
     color: var(--secondary-color);
     flex-shrink: 0;
+    margin-left: 25px;
+    margin-top: 33px;
   }
   
 .scroll {
