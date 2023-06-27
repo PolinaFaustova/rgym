@@ -201,7 +201,7 @@ margin-left: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 67px;
+  margin-bottom: 97px;
 }
 
   .social-item:not(:last-child) {
@@ -214,12 +214,13 @@ margin-left: 250px;
 
   .navigation-site {
     display: flex;
-   align-items: center;
-   margin-right: 15px;
+    align-items: center;
     gap: 25px;
+    margin-right: -53px;
     transform: rotate(90deg);
 
   }
+
 
 
 
@@ -232,14 +233,16 @@ font-family: Montserrat;
 line-height: 26px;
 letter-spacing: -0.9px;
  } 
+
 .nav-site-link-current {
+  display: flex;
   color: var(--vector-color);
   align-items: center;
   font-size: 18px;
 font-family: Montserrat;
 line-height: 26px;
 letter-spacing: -0.9px;
-  display: flex;
+  
 }
 
 
@@ -256,6 +259,7 @@ letter-spacing: -0.9px;
 .flex-container {
   display: flex;
   align-items: center;
+  margin-top: -150px;
 }
 
 .button-primary {
